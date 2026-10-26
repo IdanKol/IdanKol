@@ -2,10 +2,10 @@
 <title>IDANK Marketplace</title>
 <defs>
   <linearGradient id="c1bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#080912"/></linearGradient>
-  <linearGradient id="c1t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#19e8d6"/><stop offset="1" stop-color="#3aa8ff"/></linearGradient>
-  <linearGradient id="c1s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="330"><stop offset="0" stop-color="#19e8d6"/><stop offset="1" stop-color="#3aa8ff"/></linearGradient>
-  <radialGradient id="c1o"><stop offset="0" stop-color="#19e8d6" stop-opacity=".55"/><stop offset="1" stop-color="#19e8d6" stop-opacity="0"/></radialGradient>
-  <radialGradient id="c1o2"><stop offset="0" stop-color="#3aa8ff" stop-opacity=".5"/><stop offset="1" stop-color="#3aa8ff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="c1t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7be9ff"/><stop offset="1" stop-color="#3b8cff"/></linearGradient>
+  <linearGradient id="c1s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="330"><stop offset="0" stop-color="#7be9ff"/><stop offset="1" stop-color="#3b8cff"/></linearGradient>
+  <radialGradient id="c1o"><stop offset="0" stop-color="#7be9ff" stop-opacity=".55"/><stop offset="1" stop-color="#7be9ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="c1o2"><stop offset="0" stop-color="#3b8cff" stop-opacity=".5"/><stop offset="1" stop-color="#3b8cff" stop-opacity="0"/></radialGradient>
   <clipPath id="c1clip"><rect width="1200" height="330" rx="22"/></clipPath>
   <filter id="c1bl"><feGaussianBlur stdDeviation="22"/></filter>
 </defs>
@@ -13,7 +13,7 @@
   .orb{animation:orb 9s ease-in-out infinite alternate}
   .orb2{animation:orb 12s ease-in-out infinite alternate-reverse}
   @keyframes orb{to{transform:translate(40px,-24px) scale(1.2)}}
-  .run{fill:none;stroke:url(#c1s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #19e8d6)}
+  .run{fill:none;stroke:url(#c1s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #7be9ff)}
   @keyframes run{to{stroke-dashoffset:-100}}
   .rise{animation:up .9s cubic-bezier(.2,1,.3,1) both}
   @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -35,42 +35,42 @@
       <rect x="8" y="8" width="132" height="76" rx="11" fill="#1fa463" fill-opacity=".85"/>
       <circle cx="74" cy="46" r="15" fill="#fff" fill-opacity=".9"/>
       <rect x="14" y="98" width="96" height="9" rx="4.5" fill="#fff" fill-opacity=".55"/>
-      <text x="14" y="130" font-size="12" font-weight="700" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Spotify Premium</text>
-      <text x="14" y="154" font-size="18" font-weight="800" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">₪25</text>
-      <rect x="92" y="136" width="40" height="22" rx="11" fill="#19e8d6"/><text x="112" y="151" text-anchor="middle" font-size="11" font-weight="800" fill="#06101a" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUY</text>
+      <text x="14" y="130" font-size="12" font-weight="700" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Spotify Premium</text>
+      <text x="14" y="154" font-size="18" font-weight="800" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">₪25</text>
+      <rect x="92" y="136" width="40" height="22" rx="11" fill="#7be9ff"/><text x="112" y="151" text-anchor="middle" font-size="11" font-weight="800" fill="#06101a" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUY</text>
     </g></g>
     <g class="fl" style="animation-delay:-2s"><g transform="translate(168,0)">
       <rect width="148" height="170" rx="16" fill="#0d1120" stroke="#fff" stroke-opacity=".12"/>
       <rect x="8" y="8" width="132" height="76" rx="11" fill="#5865f2" fill-opacity=".85"/>
       <circle cx="74" cy="46" r="15" fill="#fff" fill-opacity=".9"/>
       <rect x="14" y="98" width="96" height="9" rx="4.5" fill="#fff" fill-opacity=".55"/>
-      <text x="14" y="130" font-size="12" font-weight="700" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Discord Nitro</text>
-      <text x="14" y="154" font-size="18" font-weight="800" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">₪60</text>
-      <rect x="92" y="136" width="40" height="22" rx="11" fill="#19e8d6"/><text x="112" y="151" text-anchor="middle" font-size="11" font-weight="800" fill="#06101a" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUY</text>
+      <text x="14" y="130" font-size="12" font-weight="700" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Discord Nitro</text>
+      <text x="14" y="154" font-size="18" font-weight="800" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">₪60</text>
+      <rect x="92" y="136" width="40" height="22" rx="11" fill="#7be9ff"/><text x="112" y="151" text-anchor="middle" font-size="11" font-weight="800" fill="#06101a" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUY</text>
     </g></g>
     <g class="fl" style="animation-delay:-4s"><g transform="translate(336,36)">
       <rect width="148" height="170" rx="16" fill="#0d1120" stroke="#fff" stroke-opacity=".12"/>
       <rect x="8" y="8" width="132" height="76" rx="11" fill="#2a6df4" fill-opacity=".85"/>
       <circle cx="74" cy="46" r="15" fill="#fff" fill-opacity=".9"/>
       <rect x="14" y="98" width="96" height="9" rx="4.5" fill="#fff" fill-opacity=".55"/>
-      <text x="14" y="130" font-size="12" font-weight="700" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Steam Wallet</text>
-      <text x="14" y="154" font-size="18" font-weight="800" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">₪100</text>
-      <rect x="92" y="136" width="40" height="22" rx="11" fill="#19e8d6"/><text x="112" y="151" text-anchor="middle" font-size="11" font-weight="800" fill="#06101a" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUY</text>
+      <text x="14" y="130" font-size="12" font-weight="700" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Steam Wallet</text>
+      <text x="14" y="154" font-size="18" font-weight="800" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">₪100</text>
+      <rect x="92" y="136" width="40" height="22" rx="11" fill="#7be9ff"/><text x="112" y="151" text-anchor="middle" font-size="11" font-weight="800" fill="#06101a" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUY</text>
     </g></g>
     <g transform="translate(60,208)">
-      <rect width="360" height="64" rx="16" fill="#0b1a1a" stroke="#4ff08a" stroke-opacity=".6"/>
-      <g class="pulse"><circle cx="34" cy="32" r="16" fill="#4ff08a" fill-opacity=".18" stroke="#4ff08a" stroke-width="2"/><path d="M26 33 l6 6 11-13" fill="none" stroke="#4ff08a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g>
-      <text x="66" y="28" font-size="16" font-weight="800" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Your money is protected</text>
-      <text x="66" y="48" font-size="13" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Paid out to the seller 7 days after you confirm</text>
+      <rect width="360" height="64" rx="16" fill="#0b1a1a" stroke="#22e5ff" stroke-opacity=".6"/>
+      <g class="pulse"><circle cx="34" cy="32" r="16" fill="#22e5ff" fill-opacity=".18" stroke="#22e5ff" stroke-width="2"/><path d="M26 33 l6 6 11-13" fill="none" stroke="#22e5ff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="66" y="28" font-size="16" font-weight="800" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Your money is protected</text>
+      <text x="66" y="48" font-size="13" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Paid out to the seller 7 days after you confirm</text>
     </g>
   </g>
   <g>
-    <text x="40" y="44" font-size="12" font-weight="800" letter-spacing="2.4" fill="#19e8d6" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">LIVE  ·  IDANK.CO.IL  ·  BUILT FOR ISRAEL</text>
+    <text x="40" y="44" font-size="12" font-weight="800" letter-spacing="2.4" fill="#7be9ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">LIVE  ·  IDANK.CO.IL  ·  BUILT FOR ISRAEL</text>
     <text x="40" y="84" font-size="32" font-weight="800" fill="url(#c1t)" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">IDANK Marketplace</text>
-    <text x="40" y="112" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">An Israeli marketplace for digital products, built so both</text><text x="40" y="136" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">sides feel safe: verified sellers, a secure chat for every order,</text><text x="40" y="160" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">seven days of buyer protection, points, levels and a Discord.</text>
-    <g transform="translate(40,268)"><rect width="120.39999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="60.199999999999996" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Hebrew + RTL</text></g><g transform="translate(170.39999999999998,268)"><rect width="71.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="35.599999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Escrow</text></g><g transform="translate(251.59999999999997,268)"><rect width="128.6" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="64.3" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Seller wallet</text></g><g transform="translate(390.19999999999993,268)"><rect width="112.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="56.099999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Discord bot</text></g><g transform="translate(512.3999999999999,268)"><rect width="112.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="56.099999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">idank.co.il</text></g>
+    <text x="40" y="112" font-size="16" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">An Israeli marketplace for digital products, built so both</text><text x="40" y="136" font-size="16" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">sides feel safe: verified sellers, a secure chat for every order,</text><text x="40" y="160" font-size="16" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">seven days of buyer protection, points, levels and a Discord.</text>
+    <g transform="translate(40,268)"><rect width="120.39999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="60.199999999999996" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Hebrew + RTL</text></g><g transform="translate(170.39999999999998,268)"><rect width="71.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="35.599999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Escrow</text></g><g transform="translate(251.59999999999997,268)"><rect width="128.6" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="64.3" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Seller wallet</text></g><g transform="translate(390.19999999999993,268)"><rect width="112.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="56.099999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Discord bot</text></g><g transform="translate(512.3999999999999,268)"><rect width="112.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="56.099999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">idank.co.il</text></g>
   </g>
-  <text x="1164" y="294" text-anchor="end" font-size="26" font-weight="700" fill="#3aa8ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">↗</text>
+  <text x="1164" y="294" text-anchor="end" font-size="26" font-weight="700" fill="#3b8cff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">↗</text>
 </g>
 <rect x=".75" y=".75" width="1198.5" height="328.5" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
 <rect class="run" x="1.25" y="1.25" width="1197.5" height="327.5" rx="21" pathLength="100"/>

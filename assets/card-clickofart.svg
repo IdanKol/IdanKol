@@ -2,10 +2,10 @@
 <title>Click of Art</title>
 <defs>
   <linearGradient id="c6bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#080912"/></linearGradient>
-  <linearGradient id="c6t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffb347"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
-  <linearGradient id="c6s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="590" y2="280"><stop offset="0" stop-color="#ffb347"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
-  <radialGradient id="c6o"><stop offset="0" stop-color="#ffb347" stop-opacity=".55"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
-  <radialGradient id="c6o2"><stop offset="0" stop-color="#ff4fd0" stop-opacity=".5"/><stop offset="1" stop-color="#ff4fd0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="c6t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b6f0ff"/><stop offset="1" stop-color="#9ae6ff"/></linearGradient>
+  <linearGradient id="c6s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="590" y2="280"><stop offset="0" stop-color="#b6f0ff"/><stop offset="1" stop-color="#9ae6ff"/></linearGradient>
+  <radialGradient id="c6o"><stop offset="0" stop-color="#b6f0ff" stop-opacity=".55"/><stop offset="1" stop-color="#b6f0ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="c6o2"><stop offset="0" stop-color="#9ae6ff" stop-opacity=".5"/><stop offset="1" stop-color="#9ae6ff" stop-opacity="0"/></radialGradient>
   <clipPath id="c6clip"><rect width="590" height="280" rx="22"/></clipPath>
   <filter id="c6bl"><feGaussianBlur stdDeviation="22"/></filter>
 </defs>
@@ -13,7 +13,7 @@
   .orb{animation:orb 9s ease-in-out infinite alternate}
   .orb2{animation:orb 12s ease-in-out infinite alternate-reverse}
   @keyframes orb{to{transform:translate(40px,-24px) scale(1.2)}}
-  .run{fill:none;stroke:url(#c6s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #ffb347)}
+  .run{fill:none;stroke:url(#c6s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #b6f0ff)}
   @keyframes run{to{stroke-dashoffset:-100}}
   .rise{animation:up .9s cubic-bezier(.2,1,.3,1) both}
   @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -44,18 +44,18 @@
       <path d="M-20 -30 L-6 -14 L-18 0 L0 18" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       <ellipse cx="-24" cy="-26" rx="10" ry="18" fill="#fff" opacity=".35" transform="rotate(24 -24 -26)"/>
     </g>
-    <text class="plus" x="40" y="-60" font-size="24" font-weight="800" fill="#ffb347" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">+1</text>
-    <g class="spk"><path d="M-78 -40l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#ffb347"/></g>
-    <g class="spk" style="animation-delay:-1.2s"><path d="M84 -10l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#19e8d6"/></g>
+    <text class="plus" x="40" y="-60" font-size="24" font-weight="800" fill="#b6f0ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">+1</text>
+    <g class="spk"><path d="M-78 -40l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#b6f0ff"/></g>
+    <g class="spk" style="animation-delay:-1.2s"><path d="M84 -10l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#7be9ff"/></g>
     <defs><radialGradient id="egg" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#fff3d6"/><stop offset=".55" stop-color="#ffb347"/><stop offset="1" stop-color="#e0562b"/></radialGradient></defs>
   </g>
   <g>
-    <text x="40" y="44" font-size="12" font-weight="800" letter-spacing="2.4" fill="#ffb347" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">GAME  ·  FOR STEAM</text>
+    <text x="40" y="44" font-size="12" font-weight="800" letter-spacing="2.4" fill="#b6f0ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">GAME  ·  FOR STEAM</text>
     <text x="40" y="84" font-size="32" font-weight="800" fill="url(#c6t)" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Click of Art</text>
-    <text x="40" y="112" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">An egg clicker with one million clicks to</text><text x="40" y="136" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">chase and 5,000 achievements to unlock.</text><text x="40" y="160" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Unity, with a beat detector in the mix.</text>
-    <g transform="translate(40,218)"><rect width="63" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="31.5" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Unity</text></g><g transform="translate(113,218)"><rect width="38.4" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="19.2" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">C#</text></g><g transform="translate(161.4,218)"><rect width="63" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="31.5" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Steam</text></g>
+    <text x="40" y="112" font-size="16" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">An egg clicker with one million clicks to</text><text x="40" y="136" font-size="16" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">chase and 5,000 achievements to unlock.</text><text x="40" y="160" font-size="16" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Unity, with a beat detector in the mix.</text>
+    <g transform="translate(40,218)"><rect width="63" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="31.5" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Unity</text></g><g transform="translate(113,218)"><rect width="38.4" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="19.2" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">C#</text></g><g transform="translate(161.4,218)"><rect width="63" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="31.5" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f2fbff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Steam</text></g>
   </g>
-  <text x="554" y="244" text-anchor="end" font-size="26" font-weight="700" fill="#ff4fd0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif"></text>
+  <text x="554" y="244" text-anchor="end" font-size="26" font-weight="700" fill="#9ae6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif"></text>
 </g>
 <rect x=".75" y=".75" width="588.5" height="278.5" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
 <rect class="run" x="1.25" y="1.25" width="587.5" height="277.5" rx="21" pathLength="100"/>
