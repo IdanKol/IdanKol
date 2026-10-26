@@ -40,11 +40,11 @@ Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on 
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2>Toolbox</h2>
+<h2>What I build with</h2>
 
-<img src="assets/stack.svg" alt="TypeScript, JavaScript, React, Node.js, Electron, Vite, Supabase, Capacitor, Playwright, Unity, C#, Python, FFmpeg, Discord API, Cloudflare, GitHub Actions" width="100%">
+<img src="assets/stack.svg" alt="What I build with: interface, apps, backend, games and art, AI and automation, shipping" width="100%">
 
-<br>
+<br><br>
 
 <img src="assets/footer.svg" alt="Let's build something people feel." width="100%">
 
