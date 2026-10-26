@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Statusong. The line you are hearing, live on your Discord status. Synced lyrics from Spotify, Apple Music and the browser, with scenes, word effects and a Windows app that updates itself.">
 <title>Statusong</title>
 <defs>
-  <linearGradient id="c1bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#080912"/></linearGradient>
-  <linearGradient id="c1t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4ff08a"/><stop offset="1" stop-color="#19e8d6"/></linearGradient>
-  <linearGradient id="c1s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="330"><stop offset="0" stop-color="#4ff08a"/><stop offset="1" stop-color="#19e8d6"/></linearGradient>
-  <radialGradient id="c1o"><stop offset="0" stop-color="#4ff08a" stop-opacity=".55"/><stop offset="1" stop-color="#4ff08a" stop-opacity="0"/></radialGradient>
-  <radialGradient id="c1o2"><stop offset="0" stop-color="#19e8d6" stop-opacity=".5"/><stop offset="1" stop-color="#19e8d6" stop-opacity="0"/></radialGradient>
-  <clipPath id="c1clip"><rect width="1200" height="330" rx="22"/></clipPath>
-  <filter id="c1bl"><feGaussianBlur stdDeviation="22"/></filter>
+  <linearGradient id="c4bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#080912"/></linearGradient>
+  <linearGradient id="c4t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4ff08a"/><stop offset="1" stop-color="#19e8d6"/></linearGradient>
+  <linearGradient id="c4s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="330"><stop offset="0" stop-color="#4ff08a"/><stop offset="1" stop-color="#19e8d6"/></linearGradient>
+  <radialGradient id="c4o"><stop offset="0" stop-color="#4ff08a" stop-opacity=".55"/><stop offset="1" stop-color="#4ff08a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="c4o2"><stop offset="0" stop-color="#19e8d6" stop-opacity=".5"/><stop offset="1" stop-color="#19e8d6" stop-opacity="0"/></radialGradient>
+  <clipPath id="c4clip"><rect width="1200" height="330" rx="22"/></clipPath>
+  <filter id="c4bl"><feGaussianBlur stdDeviation="22"/></filter>
 </defs>
 <style>
   .orb{animation:orb 9s ease-in-out infinite alternate}
   .orb2{animation:orb 12s ease-in-out infinite alternate-reverse}
   @keyframes orb{to{transform:translate(40px,-24px) scale(1.2)}}
-  .run{fill:none;stroke:url(#c1s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #4ff08a)}
+  .run{fill:none;stroke:url(#c4s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #4ff08a)}
   @keyframes run{to{stroke-dashoffset:-100}}
   .rise{animation:up .9s cubic-bezier(.2,1,.3,1) both}
   @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -25,9 +25,9 @@
   .spin{animation:sp 14s linear infinite;transform-box:fill-box;transform-origin:center}
   @keyframes sp{to{transform:rotate(360deg)}}
 </style>
-<g clip-path="url(#c1clip)">
-  <rect width="1200" height="330" fill="url(#c1bg)"/>
-  <g filter="url(#c1bl)"><circle class="orb" cx="936" cy="99" r="181.50000000000003" fill="url(#c1o)"/><circle class="orb2" cx="240" cy="313.5" r="148.5" fill="url(#c1o2)"/></g>
+<g clip-path="url(#c4clip)">
+  <rect width="1200" height="330" fill="url(#c4bg)"/>
+  <g filter="url(#c4bl)"><circle class="orb" cx="936" cy="99" r="181.50000000000003" fill="url(#c4o)"/><circle class="orb2" cx="240" cy="313.5" r="148.5" fill="url(#c4o2)"/></g>
   
   <g transform="translate(700,40)">
     <g class="fl">
@@ -51,7 +51,7 @@
   </g>
   <g>
     <text x="40" y="44" font-size="12" font-weight="800" letter-spacing="2.4" fill="#4ff08a" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">FEATURED  ·  SHIPPED  ·  FREE TO TRY</text>
-    <text x="40" y="84" font-size="32" font-weight="800" fill="url(#c1t)" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Statusong</text>
+    <text x="40" y="84" font-size="32" font-weight="800" fill="url(#c4t)" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Statusong</text>
     <text x="40" y="112" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">The line you are hearing, live on your Discord status.</text><text x="40" y="136" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Synced lyrics from Spotify, Apple Music and the browser, with</text><text x="40" y="160" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">scenes, word effects and a Windows app that updates itself.</text>
     <g transform="translate(40,268)"><rect width="87.6" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="43.8" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Electron</text></g><g transform="translate(137.6,268)"><rect width="79.39999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="39.699999999999996" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Node.js</text></g><g transform="translate(227,268)"><rect width="79.39999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="39.699999999999996" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Discord</text></g><g transform="translate(316.4,268)"><rect width="79.39999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="39.699999999999996" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Windows</text></g><g transform="translate(405.79999999999995,268)"><rect width="128.6" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="64.3" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">statusong.com</text></g>
   </g>

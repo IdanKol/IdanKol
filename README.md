@@ -9,7 +9,7 @@ Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on 
 
 <br>
 
-<a href="https://statusong.com"><b>statusong.com</b></a> &nbsp;·&nbsp; <a href="https://discord.gg/statusong"><b>Discord</b></a> &nbsp;·&nbsp; <a href="https://github.com/IdanKol/statusong"><b>Statusong on GitHub</b></a>
+<a href="https://statusong.com"><b>statusong.com</b></a> &nbsp;·&nbsp; <a href="https://idank.co.il"><b>idank.co.il</b></a> &nbsp;·&nbsp; <a href="https://discord.gg/statusong"><b>Discord</b></a> &nbsp;·&nbsp; <a href="https://github.com/IdanKol/statusong"><b>Statusong on GitHub</b></a>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -21,6 +21,10 @@ Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on 
 
 <a href="https://statusong.com"><img src="assets/statusong-trailer.gif" alt="The Statusong trailer: your music has words" width="68%"></a>
 
+<br><br>
+
+<a href="https://idank.co.il"><img src="assets/card-idank.svg" alt="IDANK Marketplace. An Israeli marketplace for digital products with buyer protection." width="100%"></a>
+
 <img src="assets/divider.svg" alt="" width="100%">
 
 <h2>Also making</h2>
@@ -30,6 +34,9 @@ Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on 
 
 <img src="assets/card-shop.svg" alt="Shop by Camera, a mobile app in development" width="49%">
 <img src="assets/card-listener.svg" alt="Lyrics Listener, an AI proof of concept" width="49%">
+
+<img src="assets/card-websites.svg" alt="Websites for People. Sites for contractors, barbers and restaurants." width="49%">
+<img src="assets/card-discord.svg" alt="Discord servers and bots" width="49%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 

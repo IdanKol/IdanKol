@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="590" height="280" viewBox="0 0 590 280" role="img" aria-label="Lyrics Listener. An AI that listens to the song that is playing, separates the voice and writes out the lyrics it hears.">
 <title>Lyrics Listener</title>
 <defs>
-  <linearGradient id="c5bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#080912"/></linearGradient>
-  <linearGradient id="c5t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
-  <linearGradient id="c5s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="590" y2="280"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
-  <radialGradient id="c5o"><stop offset="0" stop-color="#9b6bff" stop-opacity=".55"/><stop offset="1" stop-color="#9b6bff" stop-opacity="0"/></radialGradient>
-  <radialGradient id="c5o2"><stop offset="0" stop-color="#ff4fd0" stop-opacity=".5"/><stop offset="1" stop-color="#ff4fd0" stop-opacity="0"/></radialGradient>
-  <clipPath id="c5clip"><rect width="590" height="280" rx="22"/></clipPath>
-  <filter id="c5bl"><feGaussianBlur stdDeviation="22"/></filter>
+  <linearGradient id="c8bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#080912"/></linearGradient>
+  <linearGradient id="c8t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
+  <linearGradient id="c8s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="590" y2="280"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
+  <radialGradient id="c8o"><stop offset="0" stop-color="#9b6bff" stop-opacity=".55"/><stop offset="1" stop-color="#9b6bff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="c8o2"><stop offset="0" stop-color="#ff4fd0" stop-opacity=".5"/><stop offset="1" stop-color="#ff4fd0" stop-opacity="0"/></radialGradient>
+  <clipPath id="c8clip"><rect width="590" height="280" rx="22"/></clipPath>
+  <filter id="c8bl"><feGaussianBlur stdDeviation="22"/></filter>
 </defs>
 <style>
   .orb{animation:orb 9s ease-in-out infinite alternate}
   .orb2{animation:orb 12s ease-in-out infinite alternate-reverse}
   @keyframes orb{to{transform:translate(40px,-24px) scale(1.2)}}
-  .run{fill:none;stroke:url(#c5s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #9b6bff)}
+  .run{fill:none;stroke:url(#c8s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #9b6bff)}
   @keyframes run{to{stroke-dashoffset:-100}}
   .rise{animation:up .9s cubic-bezier(.2,1,.3,1) both}
   @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
@@ -25,9 +25,9 @@
   .spin{animation:sp 14s linear infinite;transform-box:fill-box;transform-origin:center}
   @keyframes sp{to{transform:rotate(360deg)}}
 </style>
-<g clip-path="url(#c5clip)">
-  <rect width="590" height="280" fill="url(#c5bg)"/>
-  <g filter="url(#c5bl)"><circle class="orb" cx="460.2" cy="84" r="154" fill="url(#c5o)"/><circle class="orb2" cx="118" cy="266" r="126" fill="url(#c5o2)"/></g>
+<g clip-path="url(#c8clip)">
+  <rect width="590" height="280" fill="url(#c8bg)"/>
+  <g filter="url(#c8bl)"><circle class="orb" cx="460.2" cy="84" r="154" fill="url(#c8o)"/><circle class="orb2" cx="118" cy="266" r="126" fill="url(#c8o2)"/></g>
   
   <g transform="translate(326,112)">
     <style>
@@ -45,7 +45,7 @@
   </g>
   <g>
     <text x="40" y="44" font-size="12" font-weight="800" letter-spacing="2.4" fill="#9b6bff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">AI  ·  PROOF OF CONCEPT</text>
-    <text x="40" y="84" font-size="32" font-weight="800" fill="url(#c5t)" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Lyrics Listener</text>
+    <text x="40" y="84" font-size="32" font-weight="800" fill="url(#c8t)" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Lyrics Listener</text>
     <text x="40" y="112" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">An AI that listens to the song that is</text><text x="40" y="136" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">playing, separates the voice and writes</text><text x="40" y="160" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">out the lyrics it hears.</text>
     <g transform="translate(40,218)"><rect width="71.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="35.599999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Python</text></g><g transform="translate(121.19999999999999,218)"><rect width="71.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="35.599999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Demucs</text></g><g transform="translate(202.39999999999998,218)"><rect width="79.39999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="39.699999999999996" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Whisper</text></g>
   </g>
