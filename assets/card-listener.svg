@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="280" viewBox="0 0 590 280" role="img" aria-label="Lyrics Listener. An AI that listens to the song that is playing, separates the voice and writes out the lyrics it hears.">
+<title>Lyrics Listener</title>
+<defs>
+  <linearGradient id="c5bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1020"/><stop offset="1" stop-color="#080912"/></linearGradient>
+  <linearGradient id="c5t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
+  <linearGradient id="c5s" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="590" y2="280"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient>
+  <radialGradient id="c5o"><stop offset="0" stop-color="#9b6bff" stop-opacity=".55"/><stop offset="1" stop-color="#9b6bff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="c5o2"><stop offset="0" stop-color="#ff4fd0" stop-opacity=".5"/><stop offset="1" stop-color="#ff4fd0" stop-opacity="0"/></radialGradient>
+  <clipPath id="c5clip"><rect width="590" height="280" rx="22"/></clipPath>
+  <filter id="c5bl"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<style>
+  .orb{animation:orb 9s ease-in-out infinite alternate}
+  .orb2{animation:orb 12s ease-in-out infinite alternate-reverse}
+  @keyframes orb{to{transform:translate(40px,-24px) scale(1.2)}}
+  .run{fill:none;stroke:url(#c5s);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:16 84;animation:run 5.5s linear infinite;filter:drop-shadow(0 0 6px #9b6bff)}
+  @keyframes run{to{stroke-dashoffset:-100}}
+  .rise{animation:up .9s cubic-bezier(.2,1,.3,1) both}
+  @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+  .fl{animation:fl 5s ease-in-out infinite alternate}
+  @keyframes fl{to{transform:translateY(-8px)}}
+  .fl2{animation:fl 6.5s ease-in-out infinite alternate-reverse}
+  .pulse{animation:pu 2.2s ease-in-out infinite}
+  @keyframes pu{50%{opacity:.35}}
+  .spin{animation:sp 14s linear infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes sp{to{transform:rotate(360deg)}}
+</style>
+<g clip-path="url(#c5clip)">
+  <rect width="590" height="280" fill="url(#c5bg)"/>
+  <g filter="url(#c5bl)"><circle class="orb" cx="460.2" cy="84" r="154" fill="url(#c5o)"/><circle class="orb2" cx="118" cy="266" r="126" fill="url(#c5o2)"/></g>
+  
+  <g transform="translate(326,112)">
+    <style>
+      .wv{fill:url(#wvg);transform-box:fill-box;transform-origin:center;animation:wv 1s ease-in-out infinite alternate}
+      @keyframes wv{0%{transform:scaleY(.1)}100%{transform:scaleY(var(--m))}}
+      .ty{clip-path:inset(0 100% 0 0);animation:ty 7s steps(23) infinite}
+      @keyframes ty{0%{clip-path:inset(0 100% 0 0)}60%,100%{clip-path:inset(0 0 0 0)}}
+    </style>
+    <defs><linearGradient id="wvg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#ff4fd0"/></linearGradient></defs>
+    <g><rect class="wv" x="0" y="-40" width="6" height="80" rx="3" style="--m:0.25;animation-duration:1.46s;animation-delay:-0.11s"/><rect class="wv" x="11" y="-40" width="6" height="80" rx="3" style="--m:0.67;animation-duration:0.76s;animation-delay:-0.52s"/><rect class="wv" x="22" y="-40" width="6" height="80" rx="3" style="--m:0.95;animation-duration:1.45s;animation-delay:-1.74s"/><rect class="wv" x="33" y="-40" width="6" height="80" rx="3" style="--m:0.98;animation-duration:1.47s;animation-delay:-0.55s"/><rect class="wv" x="44" y="-40" width="6" height="80" rx="3" style="--m:0.76;animation-duration:0.86s;animation-delay:-0.06s"/><rect class="wv" x="55" y="-40" width="6" height="80" rx="3" style="--m:0.36;animation-duration:1.08s;animation-delay:-1.12s"/><rect class="wv" x="66" y="-40" width="6" height="80" rx="3" style="--m:0.58;animation-duration:0.81s;animation-delay:-0.65s"/><rect class="wv" x="77" y="-40" width="6" height="80" rx="3" style="--m:0.90;animation-duration:1.08s;animation-delay:-0.45s"/><rect class="wv" x="88" y="-40" width="6" height="80" rx="3" style="--m:1.00;animation-duration:0.74s;animation-delay:-0.09s"/><rect class="wv" x="99" y="-40" width="6" height="80" rx="3" style="--m:0.83;animation-duration:0.77s;animation-delay:-1.26s"/><rect class="wv" x="110" y="-40" width="6" height="80" rx="3" style="--m:0.46;animation-duration:1.07s;animation-delay:-1.62s"/><rect class="wv" x="121" y="-40" width="6" height="80" rx="3" style="--m:0.48;animation-duration:1.28s;animation-delay:-1.02s"/><rect class="wv" x="132" y="-40" width="6" height="80" rx="3" style="--m:0.85;animation-duration:1.26s;animation-delay:-0.78s"/><rect class="wv" x="143" y="-40" width="6" height="80" rx="3" style="--m:1.00;animation-duration:1.19s;animation-delay:-1.93s"/><rect class="wv" x="154" y="-40" width="6" height="80" rx="3" style="--m:0.89;animation-duration:1.32s;animation-delay:-1.92s"/><rect class="wv" x="165" y="-40" width="6" height="80" rx="3" style="--m:0.56;animation-duration:1.27s;animation-delay:-1.21s"/><rect class="wv" x="176" y="-40" width="6" height="80" rx="3" style="--m:0.38;animation-duration:1.34s;animation-delay:-0.34s"/><rect class="wv" x="187" y="-40" width="6" height="80" rx="3" style="--m:0.77;animation-duration:0.75s;animation-delay:-1.45s"/><rect class="wv" x="198" y="-40" width="6" height="80" rx="3" style="--m:0.99;animation-duration:1.22s;animation-delay:-0.86s"/><rect class="wv" x="209" y="-40" width="6" height="80" rx="3" style="--m:0.94;animation-duration:1.14s;animation-delay:-0.77s"/><rect class="wv" x="220" y="-40" width="6" height="80" rx="3" style="--m:0.65;animation-duration:1.10s;animation-delay:-0.24s"/><rect class="wv" x="231" y="-40" width="6" height="80" rx="3" style="--m:0.28;animation-duration:0.75s;animation-delay:-0.16s"/></g>
+    <g transform="translate(0,66)">
+      <text x="0" y="0" font-size="12" font-weight="800" letter-spacing="1.8" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">HEARD</text>
+      <text class="ty" x="0" y="26" font-size="17" font-weight="700" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">…the words, written out</text>
+    </g>
+  </g>
+  <g>
+    <text x="40" y="44" font-size="12" font-weight="800" letter-spacing="2.4" fill="#9b6bff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">AI  ·  PROOF OF CONCEPT</text>
+    <text x="40" y="84" font-size="32" font-weight="800" fill="url(#c5t)" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Lyrics Listener</text>
+    <text x="40" y="112" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">An AI that listens to the song that is</text><text x="40" y="136" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">playing, separates the voice and writes</text><text x="40" y="160" font-size="16" fill="#8b93b0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">out the lyrics it hears.</text>
+    <g transform="translate(40,218)"><rect width="71.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="35.599999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Python</text></g><g transform="translate(121.19999999999999,218)"><rect width="71.19999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="35.599999999999994" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Demucs</text></g><g transform="translate(202.39999999999998,218)"><rect width="79.39999999999999" height="30" rx="15" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".12"/><text x="39.699999999999996" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f6ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">Whisper</text></g>
+  </g>
+  <text x="554" y="244" text-anchor="end" font-size="26" font-weight="700" fill="#ff4fd0" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif"></text>
+</g>
+<rect x=".75" y=".75" width="588.5" height="278.5" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".09"/>
+<rect class="run" x="1.25" y="1.25" width="587.5" height="277.5" rx="21" pathLength="100"/>
+</svg>

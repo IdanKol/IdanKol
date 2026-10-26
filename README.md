@@ -1,18 +1,52 @@
 <div align="center">
 
-<img src="banner.svg" alt="Idan Kol: builds apps that solve real problems" width="100%">
+<img src="assets/hero.svg" alt="Idan Kol. I build products people actually use." width="100%">
+
+<br>
+
+<b>I build apps, games and tools, and I ship them end to end.</b><br>
+Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on your Discord status. Based in Israel.
+
+<br>
+
+<a href="https://statusong.com"><b>statusong.com</b></a> &nbsp;·&nbsp; <a href="https://discord.gg/statusong"><b>Discord</b></a> &nbsp;·&nbsp; <a href="https://github.com/IdanKol/statusong"><b>Statusong on GitHub</b></a>
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+<h2>Featured</h2>
+
+<a href="https://statusong.com"><img src="assets/card-statusong.svg" alt="Statusong. The line you are hearing, live on your Discord status." width="100%"></a>
+
+<br>
+
+<a href="https://statusong.com"><img src="assets/statusong-trailer.gif" alt="The Statusong trailer: your music has words" width="68%"></a>
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+<h2>Also making</h2>
+
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3818288354"><img src="assets/card-wallpapers.svg" alt="Live Wallpapers for Wallpaper Engine" width="49%"></a>
+<img src="assets/card-clickofart.svg" alt="Click of Art, an egg clicker game for Steam" width="49%">
+
+<img src="assets/card-shop.svg" alt="Shop by Camera, a mobile app in development" width="49%">
+<img src="assets/card-listener.svg" alt="Lyrics Listener, an AI proof of concept" width="49%">
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+<h2>Toolbox</h2>
+
+<img src="assets/stack.svg" alt="TypeScript, JavaScript, React, Node.js, Electron, Vite, Supabase, Capacitor, Playwright, Unity, C#, Python, FFmpeg, Discord API, Cloudflare, GitHub Actions" width="100%">
+
+<h2>Contributions</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IdanKol/IdanKol/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IdanKol/IdanKol/output/github-snake.svg">
+  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/IdanKol/IdanKol/output/github-snake-dark.svg" width="100%">
+</picture>
+
+<br><br>
+
+<img src="assets/footer.svg" alt="Let's build something people feel." width="100%">
 
 </div>
-
-## What I'm building
-
-- **A shopping app that starts with your camera.** Photograph or describe anything, and it shows where to buy it, compares prices, and finds the nearest open store. Eight languages, made for Hebrew and Arabic too.
-- **Small tools I wanted for myself:** lyrics on a Discord status, an AI that listens to a song and writes out the words.
-
-## Stack I like
-
-`TypeScript` · `React` · `Supabase` · `Capacitor` · `Playwright`
-
-## Say hi
-
-Open an issue on any repo, or follow along here.
