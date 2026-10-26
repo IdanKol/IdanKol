@@ -44,15 +44,7 @@ Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on 
 
 <img src="assets/stack.svg" alt="TypeScript, JavaScript, React, Node.js, Electron, Vite, Supabase, Capacitor, Playwright, Unity, C#, Python, FFmpeg, Discord API, Cloudflare, GitHub Actions" width="100%">
 
-<h2>Contributions</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IdanKol/IdanKol/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IdanKol/IdanKol/output/github-snake.svg">
-  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/IdanKol/IdanKol/output/github-snake-dark.svg" width="100%">
-</picture>
-
-<br><br>
+<br>
 
 <img src="assets/footer.svg" alt="Let's build something people feel." width="100%">
 
