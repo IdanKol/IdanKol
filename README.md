@@ -5,7 +5,7 @@
 <br>
 
 <b>I build apps, games and tools, and I ship them end to end.</b><br>
-Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on your Discord status. Based in Israel.
+Right now: <a href="https://statusong.com"><b>Statusong</b></a>, live lyrics on your Discord status.
 
 <br>
 

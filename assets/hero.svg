@@ -93,7 +93,7 @@
   <g class="in" style="animation-delay:.1s">
     <circle class="blink" cx="48" cy="46" r="5" fill="#22e5ff"/>
     <text x="64" y="51" font-size="15" font-weight="700" letter-spacing="2" fill="#22e5ff" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">IDANKOL</text>
-    <text x="1160" y="51" text-anchor="end" font-size="14" font-weight="600" letter-spacing="2" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUILDER  ·  ISRAEL  ·  OPEN TO IDEAS</text>
+    <text x="1160" y="51" text-anchor="end" font-size="14" font-weight="600" letter-spacing="2" fill="#86a3b8" font-family="Inter,'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">BUILDER  ·  OPEN TO IDEAS</text>
   </g>
 
   <g class="in" style="animation-delay:.15s">
